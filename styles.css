@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+body {
+				font-family : "Kaushan Script", cursive;
+				position: relative ;
+				z-index : 3;
+}
+header{
+				
+}
+.logo-container{
+				display : flex;
+				justify-content : space-between ;
+				
+}
+.item-one{
+				margin: 10px ;
+				
+}
+.item-two{
+				margin: 10px ;
+				color: #f17897;
+				font-size: 40px ;
+				
+			
+}
+ul{
+				padding: 0;
+				display : none;
+}
+.changeVisibility{
+				display : block;
+}
+li{
+				list-style : none;
+				margin: 10px ;
+				padding: 10px;
+				
+}
+li a{
+				text-decoration : none;
+				color: #f17897;
+				font-weight : 900;
+				font-size : 30px;
+}
+#banner{
+				width: 100%;
+				background: url(./images/headerBcg.jpeg) center/cover fixed no-repeat ;
+				height: 500px;
+				position: relative ;
+				text-align : center ;
+			  display :flex ;
+			  flex-direction : column ;
+			  Justify-content : center ;
+			  
+}
+strong{
+				color: #f17897;
+				font-size : 60px ;
+}
+button{
+				border : none;
+				background: none;
+				outline : 1px solid black ;
+}
+.aboutUs{
+				margin: 20px;
+				line-height : 2.0;
+}
+.image-bg{
+				padding: 10px;
+				width: 80%;
+				margin: auto ;
+				box-sizing : border-box;
+				background: #f9e497;
+}
+.product-img{
+				width: 100% ;
+				height: 100%;
+			
+}
+.product-list{
+				text-align : center ;
+				margin: 20px;
+				background: #eeeeee;
+}
+figure{
+				display : flex ;
+				flex-direction : column;
+}
+input{
+				padding: 8px ;
+				margin: 10px ;
+				background: none ;
+				font-size : 18px;
+				font-family: "Kushan Script", cursive;
+				border : 1px solid black ;
+				border-radius: 5px ;
+}
+input:hover{
+				border : 2px solid #f17897;
+				background: #191970;
+				color: #f17897;
+				font-weight : 800;
+}
+.image{
+				width: 100%;
+				margin-bottom : 0;
+}
+figcaption{
+				width: 100%;
+				background: red;
+				display : flex ;
+				justify-content : space-around ;
+				background: #fff;
+}
+figcaption p{
+				font-weight : bold;
+				font-size : 25px ;
+}
+.is-hidden{
+				display : none;
+}
+#searchFilter{
+					margin-left: 0; 
+}
+#searchFilter:hover{
+				outline : none;
+			
+}
+label{
+				border : 2px solid #f17897;
+			  background: #191970;
+			  padding: 8px;
+			  color: #fff;
+			  border-radius: 5px ;
+}
+.modal{
+				width: 80%;
+				height: 60% ;
+				position : fixed ;
+				top: 20%;
+				right: 10%;
+				z-index : 2;
+				background-size: contain;
+				background-repeat : no-repeat;
+				text-align : right;
+				transition : 15s;
+}
+.modal button{
+				outline: none ;
+				font-size : 100px ;
+				font-weight : 500;
+				position: relative ;
+				bottom: 5%;
+				opacity : 70%;
+				
+}
+.overlay{
+				position: fixed;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: rgba(0,0,0,0.6);
+				backdrop-filter : blur(3px);
+				z-index : 1;
+				
+}
+.hidden{
+				display : none;
+}
